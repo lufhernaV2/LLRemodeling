@@ -83,7 +83,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: #f0f0f0;
+		background-color: #caccce !important;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -2096,21 +2096,26 @@ input, select, textarea {
 		}
 
 /* Banner */
+	#banner-paragraph {
+		z-index: 100;
+		opacity: 1 !important;
+		color: #ef2424;
+	}
 
 	#banner {
 		position: relative;
 		overflow: hidden;
 		background: #fff;
-		color: #fff;
 		text-align: center;
 		border-top: solid 2px #e5e5e5;
 		border-bottom: solid 2px #e5e5e5;
 		box-shadow: inset 0px -8px 0px 0px #fff, inset 0px 8px 0px 0px #fff;
 		position: relative;
 		text-transform: uppercase;
-		background: url("../../images/banner.jpg");
+		background: url("../../images/Fireplace.jpg");
 		background-size: cover;
 		padding: 10em 0;
+		opacity: 0.40;
 	}
 
 		#banner p {
@@ -2139,7 +2144,7 @@ input, select, textarea {
 				height: 141px;
 				margin-top: -70px;
 				background: url("images/bracket.svg");
-				opacity: 0.15;
+				opacity: 0.50;
 			}
 
 			#banner > .container:before {
