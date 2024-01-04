@@ -149,17 +149,17 @@ input, select, textarea {
 		}
 
 		a:hover {
-			color: #ed786a;
+			color: #9E8A39;
 			border-bottom-color: rgba(255, 255, 255, 0);
 		}
 
 			a:hover strong {
-				color: #ed786a;
+				color: #9E8A39;;
 			}
 
 	strong, b {
 		font-weight: 600;
-		color: #666;
+		color: #9E8A39;
 	}
 
 	em, i {
@@ -1899,6 +1899,18 @@ input, select, textarea {
 		margin-bottom: 0;
 	}
 
+/* about us paragraph */
+
+	#about-us {
+		font-size: 1.75em;
+		color: #9E8A39 !important;
+	}
+
+/* Logo */
+	#logo {
+		color: #9E8A39 !important;
+	}
+
 /* Header */
 
 	#header {
@@ -1919,7 +1931,7 @@ input, select, textarea {
 			font-weight: 700;
 			color: #ed786a;
 			text-shadow: 0.05em 0.075em 0 rgba(0, 0, 0, 0.1);
-			font-size: 3em;
+			font-size: 4em;
 			letter-spacing: 13px;
 		}
 
@@ -1932,7 +1944,7 @@ input, select, textarea {
 			font-weight: 400;
 			color: #888;
 			margin: 2.5em 0 0 0;
-			font-size: 0.85em;
+			font-size: 1.30em;
 			letter-spacing: 3px;
 			text-align: center;
 		}
@@ -2001,13 +2013,13 @@ input, select, textarea {
 
 			#nav > ul > li.active > a:before,
 			#nav > ul > li:hover > a:before {
-				background: #ED786A;
+				background: #9E8A39;
 				color: #fff;
 			}
 
 			#nav > ul > li.active > a > span,
 			#nav > ul > li:hover > a > span {
-				color: #ED786A;
+				color: #9E8A39;
 			}
 
 	.dropotron {
