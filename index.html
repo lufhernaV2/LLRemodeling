@@ -159,28 +159,30 @@
 						<div class="row">
 							<div class="col-6 col-12-medium">
 								<section>
-									<form method="post" action="#">
+									<form method="post" action="/submit">
 										<div class="row gtr-50">
 											<div class="col-6 col-12-small">
-												<input name="name" placeholder="Name" type="text" />
+												<input name="name" id="name" placeholder="Name" type="text" required />
 											</div>
 											<div class="col-6 col-12-small">
-												<input name="email" placeholder="Email" type="text" />
+												<input name="email" id="email" placeholder="Email" type="text" required />
 											</div>
 											<div class="col-6 col-12-small">
 												Appointment Date:
-												<input id="appointment-picker" name="appointment-date" type="date" value="01/01/2024"/>
+												<input id="appt-day" name="appt-date" type="date" value="01/01/2024" required />
 											</div>
 											<div class="col-6 col-12-small">
 												Appointment Time:
 												<br>
-												<input type="time" id="appt-time" name="appt-time" min="09:00" max="18:00" required />
+												<input type="time" id="appt-time" name="appt-time" min="07:00" max="19:00" required />
 											</div>
 											<div class="col-12">
-												<textarea name="message" placeholder="Message"></textarea>
+												<textarea id="message" name="message" placeholder="Message" required></textarea>
 											</div>
 											<div class="col-12">
-												<a href="#" class="form-button-submit button icon solid fa-envelope">Send Message</a>
+												<button type="submit" class="form-button-submit button icon solid fa-envelope">
+													Send Message
+												</button>
 											</div>
 										</div>
 									</form>
@@ -194,9 +196,9 @@
 										and a passion for turning houses into extraordinary homes. Let's get in touch for your <strong>free project evaluation</strong>!
 										Our hours of operation are:
 										<br> 
-										Monday - Friday: 8 am - 7 pm
+										<strong>Monday - Friday: 8 am - 7 pm
 										<br>
-										Saturday: 9 am - 5 pm
+										Saturday: 9 am - 5 pm</strong>
 									</p>
 									<div class="row">
 										<div class="col-6 col-12-small">
